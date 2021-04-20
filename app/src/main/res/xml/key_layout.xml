@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="3px"
+    android:verticalGap="3px"
+    android:keyHeight="60dp"
+    android:keyTextColor="@android:color/holo_orange_light"
+    android:keyBackground="@android:color/background_light"
+    >
+    <Row>
+        <Key android:codes="-1006" android:keyLabel="6" android:keyEdgeFlags="left"/>
+        <Key android:codes="-1008" android:keyLabel="8"/>
+        <Key android:codes="-1012" android:keyLabel="12"/>
+        <Key android:codes="-1016" android:keyLabel="16"/>
+        <Key android:codes="-1024" android:keyLabel="24"/>
+        <Key android:codes="-1032" android:keyLabel="32"/>
+        <Key android:codes="-1040" android:keyLabel="40"/>
+        <Key android:codes="-1064" android:keyLabel="64"/>
+        <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-901" android:keyLabel="Lower" android:keyWidth="20%p" android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:codes="-902" android:keyLabel="Upper" android:keyWidth="20%p" android:isSticky="true"/>
+        <Key android:codes="-903" android:keyLabel="Digit" android:keyWidth="20%p" android:isSticky="true"/>
+        <Key android:codes="-904" android:keyLabel="Symbol" android:keyWidth="20%p" android:isSticky="true"/>
+        <Key android:codes="-4" android:keyBackground="@android:color/primary_text_dark" android:keyLabel="DONE" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
